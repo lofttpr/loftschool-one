@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 76px;
+}
+.motto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 676px;
+    justify-content: center;
+    align-items: center
+
+}
+.motto-pic{
+
+}
+.navigation__list{
+    text-decoration: none;
+    
+}
