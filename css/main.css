@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: black;
+   background-color: black;
     width: 100%;
     height: 76px;
 }
@@ -21,9 +21,16 @@
     color: aquamarine;
 
 }
-.navigation__list{
-    display: inline;
-    text-decoration: none;    
+
+.navigation__list--item{
+    list-style: none;
+    border: solid 1px red;
+    margin: 10px;
+    color: white;
+    
+}
+.navigation__icon{
+    float: left;
 }
 .features{
     display: flex;
